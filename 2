@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+
+int i;
+int notas[5];
+
+//leitura de notas
+for(i = 0; i < 5; i++) {
+    printf("Digite a nota %d: ", i + 1);
+    scanf("%d", &notas[i]);
+}
+//exibição de notas
+printf("\nNotas digitadas:\n");
+for(i = 0; i <5; i++) {
+    printf("Nota %d = %d\n", i + 1, notas[i]);
+
+}
+
+    return 0;
+}
